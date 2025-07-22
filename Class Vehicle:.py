@@ -30,3 +30,5 @@ class Truck(Vehicle):
         self.current_load = current_load
         self.unload_cargo = unload_cargo
         self.is_overloaded = is_overloaded
+    
+    def

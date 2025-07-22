@@ -23,3 +23,10 @@ my_car = Car("Honda", "Civic", 2022, 4)
 my_car.display_info()
 my_car.honk()
 
+class Truck(Vehicle):
+    def __init__(self, make, model, year, cargo_capacity, current_load, unload_cargo, is_overloaded):
+        super().__init__(make, model, year)
+        self.cargo_capacity = cargo_capacity
+        self.current_load = current_load
+        self.unload_cargo = unload_cargo
+        self.is_overloaded = is_overloaded
